@@ -56,7 +56,7 @@ df_titles.info()
 print(df_titles['category'].value_counts())
 df_titles.to_csv('./crawling_data/naver_headline_news_{}.csv'.format(datetime.datetime.now().strftime('%Y%m%d')),
                  index=False)
-
+# strftime('%Y%m%d') 나노세크의 시간을 문자열 시간으로 변환 해줍니다. 연, 월, 일 ..
 
 
 
